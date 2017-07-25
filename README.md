@@ -1,2 +1,3 @@
-# Vue.js-Summarizing-Project-1
+# Vue.js-Monster-Fighter
+
 Project summarizing my knowledge about Vue so far
