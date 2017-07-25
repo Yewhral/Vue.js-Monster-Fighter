@@ -18,11 +18,17 @@
 }
 
 #controls {
-    width: 9%;
     margin: 0 auto;
+    width: 200px;
 }
 
-button{
-    width:170px;
+button {
+    width:200px;
     margin-bottom: 10px;
 }
+
+#monster.bursted{
+    background: url(../img/jawa_rip.png) center no-repeat;
+    background-size: 80%;
+}
+

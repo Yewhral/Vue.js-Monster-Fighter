@@ -10,17 +10,18 @@
 <body>
     <div id="vue-app">
         <!-- monster img -->
-        <div id="monster"></div>
+        <div id="monster" v-bind:class="{bursted: ended}"></div>
 
         <!-- monster hp -->
         <div id="monster-hp">
-            <div></div>
+            <div v-bind:style="{ width:health + '%'}"></div>
         </div>
 
         <!-- controls -->
         <div id="controls">
-            <button>Attack!!</button>
-            <button>Restart</button>
+            <button id="attack_light" v-on:click="punch(10)" v-show="!ended">Light attack!</button>
+            <button id="attack_strong" v-on:click="punch(20)" v-show="!ended">Strong attack!</button>
+            <button v-on:click="restart">Restart</button>
         </div>
     </div>
 
