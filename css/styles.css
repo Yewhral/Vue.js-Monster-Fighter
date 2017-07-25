@@ -1,0 +1,28 @@
+#monster {
+    width: 200px;
+    height: 500px;
+    margin: 0 auto;
+    background: url(../img/jawa.png) center no-repeat;
+    background-size: 80%;
+}
+
+#monster-hp {
+    width: 200px;
+    border: 2px solid #000;
+    margin: 0 auto 20px auto;
+}
+
+#monster-hp div {
+    height: 14px;
+    background: crimson;
+}
+
+#controls {
+    width: 9%;
+    margin: 0 auto;
+}
+
+button{
+    width:170px;
+    margin-bottom: 10px;
+}
